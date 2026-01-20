@@ -1,0 +1,28 @@
+## 📂 Project Structure
+
+nyc-taxi-fare-analysis/
+│
+├── data/
+│   ├── raw/
+│   │   └── yellow_tripdata_2020-01.csv        # Original raw dataset (optional / gitignored)
+│   └── processed/
+│       └── cleaned_taxi_data.csv              # Cleaned dataset after preprocessing
+│
+├── notebooks/
+│   └── Statistics_Project.ipynb               # Main Jupyter Notebook with full analysis
+│
+├── outputs/
+│   ├── figures/
+│   │   ├── fare_distribution.png
+│   │   ├── trip_distance_distribution.png
+│   │   ├── payment_type_pie.png
+│   │   └── regression_plot.png
+│   └── results/
+│       └── summary_statistics.csv
+│
+├── src/
+│   └── preprocessing.py                      # (Optional) Data cleaning functions
+│
+├── .gitignore
+├── requirements.txt
+└──README.md
